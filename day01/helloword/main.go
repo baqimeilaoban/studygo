@@ -7,4 +7,6 @@ func main() {
 	fmt.Println("hello world")
 }
 
-
+func test() {
+	
+}
