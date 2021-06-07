@@ -6,7 +6,3 @@ func main() {
 	fmt.Println("huangjianbo")
 	fmt.Println("hello world")
 }
-
-func test() {
-	
-}
