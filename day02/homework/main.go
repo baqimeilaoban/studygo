@@ -9,12 +9,12 @@ import "fmt"
 */
 
 // Go语言函数外的语句必须以关键字开头
-var name = "娜扎"
+var Name = "娜扎"
 var age int
 
 //age = 19
 const (
-	num = 100
+	NUM = 100
 )
 
 // 如果要编译可执行文件，必要要有main包和main函数入口(入口函数)
