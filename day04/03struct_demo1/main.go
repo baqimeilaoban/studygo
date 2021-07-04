@@ -25,6 +25,14 @@ func main() {
 	var p2 person
 	p2.name = "理想"
 	p2.age = 18
-	fmt.Printf("%T\n", p2)
-	fmt.Println(p2)
+	fmt.Printf("type:%T value:%v\n", p2, p2)
+
+	//匿名结构体：多用于零时场景
+	var s struct{
+		x string
+		y int
+	}
+	s.x = "嘿嘿嘿"
+	s.y = 100
+	fmt.Printf("type:%T value:%v\n", s, s)
 }
