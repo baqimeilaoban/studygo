@@ -25,7 +25,7 @@ func f2() {
 }
 
 //没有参数但是有返回值
-func f3() int{
+func f3() int {
 	ret := 3
 	return ret
 }
@@ -49,7 +49,7 @@ func f6(x, y int, m, n string, i, j bool) int {
 
 //可变长参数
 //可变长参数必须放在函数参数的最后
-func f7(x string, y ...int)  {
+func f7(x string, y ...int) {
 	fmt.Println(x)
 	fmt.Println(y) //y的类型是一个切片
 }

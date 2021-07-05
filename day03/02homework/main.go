@@ -27,11 +27,11 @@ func main() {
 	s3 := strings.Split(s2, " ")
 	m1 := make(map[string]int, 10)
 	//2.2遍历切片存储到一个map
-	for _, w := range s3{
-		if _, ok := m1[w]; !ok{
+	for _, w := range s3 {
+		if _, ok := m1[w]; !ok {
 			//1.如果原来map中不存在w这个key那么次数=1
 			m1[w] = 1
-		}else {
+		} else {
 			//2.如果map中存在w这个key，那么次数+1
 			m1[w]++
 		}

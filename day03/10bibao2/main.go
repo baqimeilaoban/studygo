@@ -16,7 +16,7 @@ func adder(x int) func(int) int {
 	}
 }
 
-func adder2() func(int) int{
+func adder2() func(int) int {
 	var x = 100
 	return func(y int) int {
 		x += y

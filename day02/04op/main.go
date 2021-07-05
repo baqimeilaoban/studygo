@@ -16,29 +16,29 @@ func main() {
 	fmt.Println(a * b)
 	fmt.Println(a / b)
 	fmt.Println(a % b)
-	a ++ //单独的语句，不能放在等号的右边赋值 等价于 a = a + 1
-	b -- // b = b -1
+	a++ //单独的语句，不能放在等号的右边赋值 等价于 a = a + 1
+	b-- // b = b -1
 
 	// 关系运算符
 	fmt.Println(a == b) //Go语言是强类型，相同类型才能进行比较
 	fmt.Println(a != b) //不等于
 	fmt.Println(a >= b) //大于等于
-	fmt.Println(a > b) //大于
+	fmt.Println(a > b)  //大于
 	fmt.Println(a <= b) //小于
-	fmt.Println(a < b) //小于
+	fmt.Println(a < b)  //小于
 
 	// 逻辑运算符
 	// 如果年龄大于18岁并且年龄小于60岁
 	age := 22
 	if age > 18 && age < 60 {
 		fmt.Println("苦逼上班")
-	}else {
+	} else {
 		fmt.Println("享受生活")
 	}
 	// 如果年龄小于18岁 或者 年龄大于60岁
 	if age < 18 || age > 60 {
 		fmt.Println("不用上班")
-	}else {
+	} else {
 		fmt.Println("苦逼上班")
 	}
 

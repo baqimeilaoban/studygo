@@ -37,7 +37,7 @@ func main() {
 	ss1 := fmt.Sprintf("%s%s", name, word) //将其拼接后返回成一个字符串变量
 	fmt.Println(ss1)
 	fmt.Printf("%s%s\n", name, word) //直接返回拼接后的字符串
-	
+
 	// 分割
 	ret := strings.Split(s3, "\\")
 	fmt.Println(ret) //输出数组形式

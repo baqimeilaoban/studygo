@@ -22,7 +22,7 @@ func main() {
 	//他们两个数的和为8
 	for i := 0; i < len(a1); i++ {
 		for j := i + 1; j < len(a1); j++ {
-			if a1[i] + a1[j] == 8 {
+			if a1[i]+a1[j] == 8 {
 				fmt.Printf("(%d, %d)\n", i, j)
 			}
 		}

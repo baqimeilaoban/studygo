@@ -23,24 +23,24 @@ const (
 // iota:类似枚举
 const (
 	a1 = iota //0
-	a2 //1
-	a3 //2
+	a2        //1
+	a3        //2
 
 )
 
 const (
 	b1 = iota //0
-	b2 //1
-	_ //2
-	b3 //3
+	b2        //1
+	_         //2
+	b3        //3
 )
 
 const (
 	c1 = iota //0
-	c2 = 100 //100
-	c3 //100
+	c2 = 100  //100
+	c3        //100
 	c4 = iota //3
-	c5 //4
+	c5        //4
 )
 
 // 多个常量声明在一行中
@@ -51,7 +51,7 @@ const (
 
 // 定义数量级
 const (
-	_ = iota
+	_  = iota
 	KB = 1 << (10 * iota)
 	MB = 1 << (10 * iota)
 	GB = 1 << (10 * iota)

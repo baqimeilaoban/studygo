@@ -8,7 +8,7 @@ func f1() {
 	fmt.Println("hello沙河")
 }
 
-func f2(name string)  {
+func f2(name string) {
 	fmt.Println("hello ", name)
 }
 
@@ -24,7 +24,7 @@ func f4(x, y int) int {
 }
 
 //可变参数
-func f5(title string, y ...int) int{
+func f5(title string, y ...int) int {
 	fmt.Println(y) //y是一个int类型的切片
 	return 1
 }
@@ -32,7 +32,7 @@ func f5(title string, y ...int) int{
 //命名返回值
 func f6(x, y int) (sum int) {
 	sum = x + y //如果使用命名的返回值，那么在函数中可以直接使用返回值变量
-	return //return后面可以省略返回值变量
+	return      //return后面可以省略返回值变量
 }
 
 //Go语言中支持多个返回值

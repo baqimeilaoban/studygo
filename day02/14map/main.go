@@ -6,7 +6,7 @@ import "fmt"
 
 func main() {
 	var m1 map[string]int
-	fmt.Println(m1 == nil) //true 还没在内存中开辟空间
+	fmt.Println(m1 == nil)        //true 还没在内存中开辟空间
 	m1 = make(map[string]int, 10) //要估算好改map容量，避免在程序运行期间动态扩容
 	m1["理想"] = 9000
 	m1["姬无命"] = 35
@@ -17,7 +17,7 @@ func main() {
 	value, ok := m1["娜扎"]
 	if !ok {
 		fmt.Println("查无此人")
-	}else {
+	} else {
 		fmt.Println(value)
 	}
 

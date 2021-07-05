@@ -22,7 +22,7 @@ func main() {
 	a10 := [...]int{0, 1, 2, 3}
 	fmt.Println(a10)
 	// 初始化方式3：根据索引初始化
-	a3 := [5]int{0:1, 4:2}
+	a3 := [5]int{0: 1, 4: 2}
 	fmt.Println(a3)
 
 	// 数组的遍历
@@ -32,8 +32,8 @@ func main() {
 		fmt.Println(citys[i])
 	}
 	// for range遍历
-	for i, v := range citys{
-		fmt.Println(i , v)
+	for i, v := range citys {
+		fmt.Println(i, v)
 	}
 
 	// 多维数组
@@ -47,16 +47,16 @@ func main() {
 	fmt.Println(a11)
 
 	//多维数组的遍历
-	for _, v1 := range a11{
+	for _, v1 := range a11 {
 		fmt.Println(v1)
-		for _, v2 := range v1{
+		for _, v2 := range v1 {
 			fmt.Println(v2)
 		}
 	}
 
 	//数组是值类型
 	b1 := [3]int{1, 2, 3} //[1 2 3]
-	b2 := b1 //[1 2 3]
-	b2[0] = 100 //[100 2 3]
+	b2 := b1              //[1 2 3]
+	b2[0] = 100           //[100 2 3]
 	fmt.Println(b1, b2)
 }

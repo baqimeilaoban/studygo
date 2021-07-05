@@ -12,7 +12,7 @@ func main() {
 	fmt.Println(ages)
 	var ages2 = [...]int{1, 3, 4, 5}
 	fmt.Println(ages2)
-	var ages3 = [...]int{1:100, 99:200}
+	var ages3 = [...]int{1: 100, 99: 200}
 	fmt.Println(ages3)
 	//二维数组
 	var a1 = [...][2]int{
@@ -25,9 +25,9 @@ func main() {
 
 	//数组是值类型
 	x := [3]int{1, 2, 3}
-	y := x //把x的值拷贝了一份给y
-	y[1] = 200 //修改的是副本y，并不影响x
- 	fmt.Println(x) //[1 2 3]
+	y := x         //把x的值拷贝了一份给y
+	y[1] = 200     //修改的是副本y，并不影响x
+	fmt.Println(x) //[1 2 3]
 	f1(x)
 	fmt.Println(x) //[1 2 3]
 
@@ -77,7 +77,7 @@ func main() {
 	score, ok := m1["ji"]
 	if !ok {
 		fmt.Println("没有姬无命这个人")
-	}else {
+	} else {
 		fmt.Println("姬无命的分数是：", score)
 	}
 	delete(m1, "lixiang") //删除的key不存在就什么也不干
@@ -86,7 +86,7 @@ func main() {
 	fmt.Println(m1 == nil) //已经开辟了内存
 }
 
-func f1(a [3]int)  {
+func f1(a [3]int) {
 	//Go语言中的函数传递的都是值（Ctrl+C Ctrl+V）
 	a[1] = 100 //此处修改的是副本的值
 }

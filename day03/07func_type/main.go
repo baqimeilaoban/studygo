@@ -10,7 +10,7 @@ func f1() {
 
 func f2() int {
 	return 10
-} 
+}
 
 //函数也可以作为参数的类型
 func f3(x func() int) {
@@ -23,8 +23,8 @@ func f4(x, y int) int {
 }
 
 //函数还可以作为返回值
-func f5(x func() int) func(int, int) int{
-	ret := func(a, b int) int{
+func f5(x func() int) func(int, int) int {
+	ret := func(a, b int) int {
 		return a + b
 	}
 	return ret

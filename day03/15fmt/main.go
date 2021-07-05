@@ -42,14 +42,14 @@ func main() {
 	fmt.Scan(&s)
 	fmt.Println("用户输入的内容是：", s)
 	var (
-		name string
-		age int
+		name  string
+		age   int
 		class string
 	)
 	fmt.Scanf("%s %d %s\n", &name, &age, &class)
 	fmt.Println(name, age, class)
 }
 
-func printBaifenbi(num int){
+func printBaifenbi(num int) {
 	fmt.Printf("%d%%\n", num)
 }

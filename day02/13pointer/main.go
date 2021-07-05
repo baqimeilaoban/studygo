@@ -15,10 +15,10 @@ func main() {
 	fmt.Println(m)
 	fmt.Printf("%T\n", m) //int类型
 
-	var a1 *int //nil pointer 
+	var a1 *int //nil pointer
 	fmt.Println(a1)
 	var a2 = new(int) //内存地址
-	fmt.Println(a2) 
+	fmt.Println(a2)
 	fmt.Println(*a2)
 	*a2 = 100
 	fmt.Println(*a2)

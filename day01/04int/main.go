@@ -4,10 +4,10 @@ import "fmt"
 
 // 整形
 
-func main()  {
+func main() {
 	var i1 = 100
 	fmt.Printf("%d\n", i1)
-	fmt.Printf("%b\n", i1) //把十进制转换为二进制 
+	fmt.Printf("%b\n", i1) //把十进制转换为二进制
 	fmt.Printf("%o\n", i1) //把十进制转换为八进制
 	fmt.Printf("%x\n", i1) //把十进制转换为十六进制
 	// 八进制

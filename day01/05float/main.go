@@ -11,5 +11,5 @@ func main() {
 	f2 := float32(1.2345)
 	fmt.Printf("%T\n", f2) //显式声明为float32类型
 	//f1 = f2 //float32类型的值不能直接赋值给float64
-	
+
 }

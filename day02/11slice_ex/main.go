@@ -7,9 +7,9 @@ import (
 
 //切片练习题
 
-func main()  {
+func main() {
 	var a = make([]int, 5, 10) //创建切片 长度为5 容量为10
-	fmt.Println(a) //[0 0 0 0 0]
+	fmt.Println(a)             //[0 0 0 0 0]
 	for i := 0; i < 10; i++ {
 		a = append(a, i)
 	}

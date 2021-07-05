@@ -27,9 +27,9 @@ func main() {
 	// if
 	if age > 18 {
 		fmt.Println("成年了")
-	}else if age > 7{
+	} else if age > 7 {
 		fmt.Println("上小学")
-	}else {
+	} else {
 		fmt.Println("最快乐的时光")
 	}
 
@@ -47,11 +47,11 @@ func main() {
 
 	// for.3
 	var j = 0
-	for ; j < 10; {
+	for j < 10 {
 		fmt.Println(j)
 		j++
 	}
-	
+
 	//for.4
 	fmt.Println("无限循环")
 

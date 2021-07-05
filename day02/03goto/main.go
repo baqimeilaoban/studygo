@@ -28,6 +28,6 @@ func main() {
 			fmt.Printf("%v-%c\n", i, j)
 		}
 	}
-	XX:
-		fmt.Println("over")
+XX:
+	fmt.Println("over")
 }

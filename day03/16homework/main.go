@@ -37,7 +37,7 @@ func dispatchCoin() (left int) {
 			switch c {
 			case 'e', 'E':
 				//满足这个条件分一枚金币
-				distribution[name]++ 
+				distribution[name]++
 				coins--
 			case 'i', 'I':
 				//满足这个条件分两枚金币
@@ -58,5 +58,5 @@ func dispatchCoin() (left int) {
 	//2.1每个人分得的金币数应该保存在distribution中
 	//2.2还要记录下剩余的金币数
 	//3整个第2步执行完就能得到最终每个人分得的金币数和剩余金币数
-	return 
+	return
 }

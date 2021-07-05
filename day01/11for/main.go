@@ -18,7 +18,7 @@ func main() {
 
 	// 变种2
 	var i2 = 5
-	for ; i2 < 10; {
+	for i2 < 10 {
 		fmt.Println(i2)
 		i2++
 	}
