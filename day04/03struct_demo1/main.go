@@ -28,7 +28,7 @@ func main() {
 	fmt.Printf("type:%T value:%v\n", p2, p2)
 
 	//匿名结构体：多用于零时场景
-	var s struct{
+	var s struct {
 		x string
 		y int
 	}

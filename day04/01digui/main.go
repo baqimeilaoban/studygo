@@ -17,8 +17,9 @@ func taijie(n uint64) uint64 {
 		//如果两个台阶，就有两种走法
 		return 2
 	}
-	return taijie(n-1) + taijie(n-2) 
+	return taijie(n-1) + taijie(n-2)
 }
+
 //5! = 5*4*3*2*1 = 5*4!
 
 //计算n的阶乘

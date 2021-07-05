@@ -5,7 +5,7 @@ import "fmt"
 //panic和recover
 
 func f1() {
-	defer func () {
+	defer func() {
 		err := recover()
 		fmt.Println("松手去爱。。。")
 		fmt.Println(err)

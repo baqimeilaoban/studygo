@@ -32,13 +32,13 @@ func main() {
 	p2.name = "理想"
 	(*p2).gender = "保密" //语法糖
 	fmt.Printf("%T\n", p2)
-	fmt.Printf("%p\n", p2) //p2保存的值就是一个内存地址
+	fmt.Printf("%p\n", p2)  //p2保存的值就是一个内存地址
 	fmt.Printf("%p\n", &p2) //求p2的内存地址
 
 	//结构体指针2
 	//2.1 key-value初始化
 	var p3 = person{
-		name: "元帅",
+		name:   "元帅",
 		gender: "男",
 	}
 	fmt.Printf("%#v\n", p3)

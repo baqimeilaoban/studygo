@@ -13,7 +13,7 @@ func lixiang(f func(string), name string) {
 
 //函数作为返回值
 func zhoulin() func(int, int) int {
-	return func (x, y int) int {
+	return func(x, y int) int {
 		return x + y
 	}
 }
@@ -24,7 +24,7 @@ func low(f func()) {
 
 //闭包
 func bi(f func(string), name string) func() {
-	return func () {
+	return func() {
 		f(name)
 	}
 }

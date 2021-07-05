@@ -5,7 +5,7 @@ import "fmt"
 //自定义类型和类别名
 
 //type后面跟的是类型
-type myInt int //自定义类型
+type myInt int    //自定义类型
 type youInt = int //类型别名
 
 func main() {

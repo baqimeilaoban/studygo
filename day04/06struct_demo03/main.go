@@ -16,7 +16,7 @@ func main() {
 		b: int8(20),
 		c: int8(30),
 	}
-	fmt.Printf("%p\n", &(m.a)) 
+	fmt.Printf("%p\n", &(m.a))
 	fmt.Printf("%p\n", &(m.b))
 	fmt.Printf("%p\n", &(m.c))
 }
