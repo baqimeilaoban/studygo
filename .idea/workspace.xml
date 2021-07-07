@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a8216a-15ac-4b3f-9dd6-df2b6ccc5692" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day05/06interface_point/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/07interface_struct/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/08interface_null/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/09type_assign/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/10calc/calc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/11import_demo/xxx.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/12file_open/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05/02homework/02homework" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05/05interface_demo03/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day05/05interface_demo03/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +47,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
-  <component name="RunManager" selected="Go Build.go build xxx.go">
+  <component name="RunManager" selected="Go Build.go build github.com/baqimeilaoban/studygo/day05/12file_open">
     <configuration name="go build github.com/baqimeilaoban/studygo/day05/11import_demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="studygo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -65,12 +57,13 @@
       <filePath value="$PROJECT_DIR$/day05/11import_demo/xxx.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/baqimeilaoban/studygo/day05/12file_open" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="studygo" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
+      <kind value="PACKAGE" />
+      <package value="github.com/baqimeilaoban/studygo/day05/12file_open" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day05/06interface_point/main.go" />
+      <filePath value="$PROJECT_DIR$/day05/12file_open/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -81,12 +74,13 @@
       <filePath value="$PROJECT_DIR$/day05/08interface_null/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="studygo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
+      <package value="github.com/baqimeilaoban/studygo" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day05/09type_assign/main.go" />
+      <filePath value="$PROJECT_DIR$/day05/12file_open/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build xxx.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -99,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/baqimeilaoban/studygo/day05/12file_open" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build xxx.go" />
         <item itemvalue="Go Build.go build github.com/baqimeilaoban/studygo/day05/11import_demo" />
         <item itemvalue="Go Build.go build main.go (4)" />
-        <item itemvalue="Go Build.go build main.go (5)" />
-        <item itemvalue="Go Build.go build main.go (3)" />
       </list>
     </recent_temporary>
   </component>
