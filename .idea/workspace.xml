@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a8216a-15ac-4b3f-9dd6-df2b6ccc5692" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day05/13file_write/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/13file_write/xxx.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/14binary_demo/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
