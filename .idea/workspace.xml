@@ -20,10 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80a8216a-15ac-4b3f-9dd6-df2b6ccc5692" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/studyextr/01goroutine/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/studyextr/02channel_for_goroutine/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/studyextr/03sleep_context/sleepContext.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/studyextr/readme.md" afterDir="false" />
+=======
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/day06/01fuxi/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/02file_op/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/02file_op/test.txt" afterDir="false" />
+>>>>>>> 673efdbd8048357e27ab8e59280e84d00ac647c5
+>>>>>>> 6014c7e06f3e9a9792e799ec98dfbd164db45186
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
