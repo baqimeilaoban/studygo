@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80a8216a-15ac-4b3f-9dd6-df2b6ccc5692" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day06/01fuxi/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06/02file_op/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06/02file_op/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyextr/01goroutine/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyextr/02channel_for_goroutine/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyextr/03sleep_context/sleepContext.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyextr/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,25 +85,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/baqimeilaoban/studygo/day06/02file_op">
-    <configuration name="go build github.com/baqimeilaoban/studygo/day05/15get_input" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="studygo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/day05/15get_input/main.go" />
-      <package value="github.com/baqimeilaoban/studygo/day05/15get_input" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/baqimeilaoban/studygo/day05/17homework_cat" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="studygo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/day05/17homework_cat/main.go" />
-      <package value="github.com/baqimeilaoban/studygo/day05/17homework_cat" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build github.com/baqimeilaoban/studygo/studyextr/03sleep_context">
     <configuration name="go build github.com/baqimeilaoban/studygo/day06/01fuxi" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="studygo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -121,22 +104,40 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/baqimeilaoban/studygo/studyextr/01goroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="studygo" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/day05/16homework_io_copy/main.go" />
-      <package value="github.com/baqimeilaoban/studygo" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/studyextr/01goroutine/main.go" />
+      <package value="github.com/baqimeilaoban/studygo/studyextr/01goroutine" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/baqimeilaoban/studygo/studyextr/02channel_for_goroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="studygo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/studyextr/02channel_for_goroutine/main.go" />
+      <package value="github.com/baqimeilaoban/studygo/studyextr/02channel_for_goroutine" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/baqimeilaoban/studygo/studyextr/03sleep_context" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="studygo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/studyextr/03sleep_context/sleepContext.go" />
+      <package value="github.com/baqimeilaoban/studygo/studyextr/03sleep_context" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/baqimeilaoban/studygo/studyextr/03sleep_context" />
+        <item itemvalue="Go Build.go build github.com/baqimeilaoban/studygo/studyextr/02channel_for_goroutine" />
+        <item itemvalue="Go Build.go build github.com/baqimeilaoban/studygo/studyextr/01goroutine" />
         <item itemvalue="Go Build.go build github.com/baqimeilaoban/studygo/day06/02file_op" />
         <item itemvalue="Go Build.go build github.com/baqimeilaoban/studygo/day06/01fuxi" />
-        <item itemvalue="Go Build.go build github.com/baqimeilaoban/studygo/day05/17homework_cat" />
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build github.com/baqimeilaoban/studygo/day05/15get_input" />
       </list>
     </recent_temporary>
   </component>
@@ -166,25 +167,41 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1625737221944">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1625982185897">
+      <screen x="1792" y="-514" width="2560" height="1440" />
     </state>
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.1792.1120/1792.-514.2560.1440@1792.-514.2560.1440" timestamp="1625982185897" />
     <state width="1878" height="305" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1625737221944" />
-    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1625737221942">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/1792.23.1920.986/0.23.1792.1097@0.23.1792.1097" timestamp="1625748533512" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1625982185894">
+      <screen x="1792" y="-514" width="2560" height="1440" />
     </state>
+    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.1792.1120/1792.-514.2560.1440@1792.-514.2560.1440" timestamp="1625982185894" />
     <state width="1878" height="305" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1625737221942" />
-    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1625737221940">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center/1792.23.1920.986/0.23.1792.1097@0.23.1792.1097" timestamp="1625748533510" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1625982185893">
+      <screen x="1792" y="-514" width="2560" height="1440" />
     </state>
+    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.1792.1120/1792.-514.2560.1440@1792.-514.2560.1440" timestamp="1625982185893" />
     <state width="1878" height="305" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1625737221940" />
-    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1625737221943">
-      <screen x="1792" y="0" width="1920" height="1080" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left/1792.23.1920.986/0.23.1792.1097@0.23.1792.1097" timestamp="1625748533509" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1625982185896">
+      <screen x="1792" y="-514" width="2560" height="1440" />
     </state>
+    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.1792.1120/1792.-514.2560.1440@1792.-514.2560.1440" timestamp="1625982185896" />
     <state width="1878" height="305" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1625737221943" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right/1792.23.1920.986/0.23.1792.1097@0.23.1792.1097" timestamp="1625748533511" />
     <state x="2253" y="179" key="SettingsEditor" timestamp="1625724518430">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state x="2253" y="179" key="SettingsEditor/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1625724518430" />
+    <state x="2462" y="-163" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1625982481179">
+      <screen x="1792" y="-514" width="2560" height="1440" />
+    </state>
+    <state x="2462" y="-163" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1792.1120/1792.-514.2560.1440@1792.-514.2560.1440" timestamp="1625982481179" />
+    <state width="449" height="120" key="documentation.popup.size" timestamp="1625981273635">
+      <screen x="1792" y="-514" width="2560" height="1440" />
+    </state>
+    <state width="449" height="120" key="documentation.popup.size/0.0.1792.1120/1792.-514.2560.1440@1792.-514.2560.1440" timestamp="1625981273635" />
   </component>
 </project>
