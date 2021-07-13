@@ -54,11 +54,33 @@ func (f *FileLogger) initFile() (err error) {
 	return nil
 }
 
+func (f *FileLogger) checkSize(file *os.File) bool {
+	fileInfo, err := file.Stat()
+	if err != nil {
+		fmt.Printf("get file info failed, err:%v\n", err)
+		return false
+	}
+	//如果当前文件大小大于等于日志文件的最大值，就应该返回true
+	return fileInfo.Size() >= f.maxFileSize
+}
+
 func (f *FileLogger) log(lv LogLevel, format string, a ...interface{}) {
 	if f.enable(lv) {
 		msg := fmt.Sprintf(format, a...)
 		now := time.Now()
 		funcName, fileName, lineNo := getInfo(3)
+		if f.checkSize(f.fileObj) {
+			//需要切割文件
+			//1.关闭当前文件
+			f.fileObj.Close()
+			//2.备份一下 rename xx.log -> xx.log.bak202107130821
+			nowStr := time.Now().Format("20060102130405")
+			logName := path.Join(f.filePath, f.fileName)           //拿到当前的日志文件路径
+			newLogName := fmt.Sprintf("%s.bak%s", logName, nowStr) //拼接一个日志文件备份的名字
+			os.Rename(logName, newLogName)
+			//3.打开一个新的文件
+			//4.将打开的新的日志文件对象赋值给f.fileObj
+		}
 		fmt.Fprintf(f.fileObj, "[%s] [%s] [%s:%s:%d] %s\n", now.Format("2006-01-02 15:04:05"),
 			getLogString(lv), funcName, fileName, lineNo, msg)
 		if lv >= ERROR {
